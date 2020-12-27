@@ -7,7 +7,7 @@ const { v4: uuidV4 } = require('uuid');
 // const { ExpressPeerServer } = require('peer');
 // const peerServer = ExpressPeerServer(server, { debug: true });
 
-app.use(express.static('public'));
+app.use(express.static('assets'));
 app.set('view engine', 'ejs');
 app.get('/', (req, res) => { res.render('landingPage'); });
 app.get('/login', (req, res) => { res.render('login'); });

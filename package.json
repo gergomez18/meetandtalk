@@ -1,7 +1,7 @@
 {
-  "name": "icyapp",
+  "name": "meetandtalk",
   "version": "1.0.0",
-  "description": "Meet and talk with people around the world.",
+  "description": "Meet and talk with people around the world",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gergomez18/icyapp.git"
+    "url": "git+https://github.com/gergomez18/meetandtalk.git"
   },
   "author": "Gersón Aarón Gómez Macías",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gergomez18/icyapp/issues"
+    "url": "https://github.com/gergomez18/meetandtalk/issues"
   },
-  "homepage": "https://github.com/gergomez18/icyapp#readme",
+  "homepage": "https://github.com/gergomez18/meetandtalk#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "ejs": "^3.1.5",
