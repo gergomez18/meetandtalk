@@ -81,8 +81,8 @@ body.meet > article > header > a > i {
     justify-content: center;
     margin-left: 40px;
     border: 2px solid #fff;
-    border-radius: 50%;
-    background-color: #009688;
+    border-radius: 10px;
+    background-color: #ffeb3b;
 }
 
 body.meet > article > main {

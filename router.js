@@ -73,6 +73,10 @@ router.get('/chats/room/video', (request, response) => {
     response.redirect('video.html');
 });
 
+router.get('/preview', (request, response) => {
+    response.redirect('preview.html');
+});
+
 router.get('/about', (request, response) => {
     response.redirect('about.html');
 });

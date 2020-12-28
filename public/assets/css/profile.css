@@ -116,7 +116,7 @@ body.profile > article > header > div > div > a > i {
 }
 
 body.profile > article > header > div > div > a.cn > i {
-    background-color: #009688;
+    background-color: #ffeb3b;
 }
 
 body.profile > article > header > div > div > a.ht > i {
@@ -156,7 +156,7 @@ body.profile > article > main > div > a {
     font-size: 40px;
     font-weight: 400;
     text-decoration: none;
-    color: #757575;
+    color: #9e9e9e;
 }
 
 body.profile > article > main > div > a:last-child {
@@ -177,7 +177,6 @@ body.profile > article > main > div > a > i:last-child {
     justify-content: center;
     padding-right: 40px;
     box-sizing: border-box;
-    color: #bdbdbd;
 }
 
 body.profile > article > main > div > a > figure {

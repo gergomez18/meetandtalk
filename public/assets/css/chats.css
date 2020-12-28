@@ -1,0 +1,121 @@
+body.chats {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body.chats > article {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+body.chats > article > header {
+    width: 100%;
+    height: 160px;
+    padding: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+body.chats > article > header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body.chats > article > header > figure {
+    width: auto;
+    height: 80px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.chats > article > header > figure > img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body.chats > article > header > a {
+    width: auto;
+    height: 80px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+
+body.chats > article > header > a > i {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #ffeb3b;
+    color: #fff;
+}
+
+body.chats > article > main {
+    width: 100%;
+    height: calc(100vh - 320px);
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+body.chats > article > footer {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+body.chats > article > footer > a {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+body.chats > article > footer > a > figure {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body.chats > article > footer > a > figure > img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
