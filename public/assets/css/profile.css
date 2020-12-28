@@ -1,0 +1,233 @@
+body.profile {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body.profile > article {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+body.profile > article > header {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('pattern.svg');
+    background-size: cover;
+}
+
+body.profile > article > header > figure {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+body.profile > article > header > figure:first-child {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 0px;
+}
+
+body.profile > article > header > figure > img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body.profile > article > header > div {
+    width: auto;
+    height: 260px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+body.profile > article > header > div > h1 {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+body.profile > article > header > div > h2 {
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+body.profile > article > header > div > div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body.profile > article > header > div > div > a {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+
+body.profile > article > header > div > div > a > i {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+body.profile > article > header > div > div > a.cn > i {
+    background-color: #009688;
+}
+
+body.profile > article > header > div > div > a.ht > i {
+    background-color: #f44336;
+}
+
+body.profile > article > main {
+    width: 100%;
+    height: calc(60vh - 160px);
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+body.profile > article > main > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+body.profile > article > main > div > a {
+    width: 100%;
+    max-width: 800px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #eee;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #757575;
+}
+
+body.profile > article > main > div > a:last-child {
+    margin-bottom: 0px;
+}
+
+body.profile > article > main > div > a > i:first-child {
+    margin-right: 40px;
+}
+
+body.profile > article > main > div > a > i:last-child {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    box-sizing: border-box;
+    color: #bdbdbd;
+}
+
+body.profile > article > main > div > a > figure {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+body.profile > article > main > div > a > figure > img {
+    width: 60px;
+}
+
+body.profile > article > footer {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.profile > article > footer > a {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+body.profile > article > footer > a > figure {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body.profile > article > footer > a > figure > img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
