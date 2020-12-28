@@ -1,15 +1,25 @@
-var canvas = document.querySelector('#preview');
+var video = document.querySelector('#video');
+var canvas = document.querySelector('#canvas');
 var context = canvas.getContext('2d');
+var socket = io();
 
 canvas.style.display = 'none';
 canvas.width = 512;
 canvas.height = 384;
+
 context.width = canvas.width;
 context.height = canvas.height;
 
-var button = document.querySelector('#button');
-var video = document.querySelector('#video');
-var socket = io();
+navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msgGetUserMedia);
+
+navigator.getUserMedia({
+    video: true,
+    audio: true
+}, successCamera, errorCamera);
+
+var interval = setInterval(() => {
+    streamCamera(video, context);
+}, 100);
 
 function streamCamera(video, context) {
     context.drawImage(video, 0, 0, context.width, context.height);
@@ -18,25 +28,8 @@ function streamCamera(video, context) {
 
 function successCamera(stream) {
     video.srcObject = stream;
-    statusCamera('Online');
 }
 
 function errorCamera() {
-    statusCamera('Offline');
+
 }
-
-function statusCamera(status) {
-    document.querySelector('#status').innerText = status;
-}
-
-button.addEventListener('click', () => {
-    navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msgGetUserMedia);
-
-    if (navigator.getUserMedia) {
-        navigator.getUserMedia({video:true}, successCamera, errorCamera);
-    }
-
-    var interval = setInterval(() => {
-        streamCamera(video, context);
-    }, 100);
-});

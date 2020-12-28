@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Meet & Talk</title>
-        <script src="/socket.io/socket.io.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     </head>
     <body>
-        <img id="streaming" />
+        <img id="preview" />
+        <script src="/socket.io/socket.io.js"></script>
         <script>
 
             var socket = io();
 
             socket.on('stream', (image) => {
-                let streaming = document.getElementById('streaming');
-                streaming.src = image;
+                let preview = document.getElementById('preview');
+                preview.src = image;
             });
 
         </script>
