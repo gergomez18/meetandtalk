@@ -42,7 +42,6 @@ body.signup > article > main > form > select,
 body.signup > article > main > form > textarea,
 body.signup > article > main > form > a {
     width: 100%;
-    max-width: 800px;
     height: 120px;
     margin-bottom: 20px;
     padding: 0px 40px;

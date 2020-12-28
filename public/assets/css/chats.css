@@ -71,6 +71,13 @@ body.chats > article > header > a > i {
     color: #fff;
 }
 
+body.chats > article > header > a.last > i {
+    border: 0px;
+    background: none;
+    font-size: 50px;
+    color: #000;
+}
+
 body.chats > article > main {
     width: 100%;
     height: calc(100vh - 320px);
