@@ -117,6 +117,9 @@ body.meet > article > main > div > a {
     border-radius: 20px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.2);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
     text-decoration: none;
     color: #fff;
 }
@@ -124,15 +127,6 @@ body.meet > article > main > div > a {
 body.meet > article > main > div > a > i {
     margin-bottom: 20px;
     font-size: 60px;
-}
-
-body.meet > article > main > div > a > span {
-    font-family: Roboto;
-    font-size: 30px;
-    font-weight: 400;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 body.meet > article > footer {

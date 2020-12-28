@@ -57,8 +57,8 @@ router.get('/meet/stories', (request, response) => {
     response.redirect('stories.html');
 });
 
-router.get('/meet/models', (request, response) => {
-    response.redirect('models.html');
+router.get('/meet/goddesses', (request, response) => {
+    response.redirect('goddesses.html');
 });
 
 router.get('/chats', (request, response) => {
@@ -73,12 +73,8 @@ router.get('/chats/room/video', (request, response) => {
     response.redirect('video.html');
 });
 
-router.get('/preview', (request, response) => {
-    response.redirect('preview.html');
-});
-
-router.get('/about', (request, response) => {
-    response.redirect('about.html');
+router.get('/coverletter', (request, response) => {
+    response.redirect('coverletter.html');
 });
 
 router.get('/terms', (request, response) => {
@@ -87,6 +83,10 @@ router.get('/terms', (request, response) => {
 
 router.get('/privacy', (request, response) => {
     response.redirect('privacy.html');
+});
+
+router.get('/about', (request, response) => {
+    response.redirect('about.html');
 });
 
 router.get('/demo', (request, response) => {
