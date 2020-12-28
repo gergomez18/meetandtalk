@@ -63,7 +63,7 @@ body.login > article > main > a {
     box-sizing: border-box;
     border-radius: 10px;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     text-decoration: none;
     color: #fff;
@@ -75,7 +75,6 @@ body.login > article > main > a:last-child {
 
 body.login > article > main > a > i {
     margin-right: 40px;
-    font-size: 40px;
 }
 
 body.login > article > main > a.fb {

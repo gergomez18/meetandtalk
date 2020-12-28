@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meet & Talk | Meet</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="meet.css" type="text/css" media="all" />
+    </head>
+    <body class="meet">
+        <video id="video" autoplay="true"></video>
+        <canvas id="canvas"></canvas>
+        <article>
+            <header>
+                <figure>
+                    <img src="logotype_white.png">
+                </figure>
+                <a href="/profile/coins">+1200<i class="fas fa-coins"></i></a>
+            </header>
+            <main>
+                <div>
+                    <a href="/meet/random"><i class="fas fa-random"></i><span>Random</span></a>
+                    <a href="/meet/stories"><i class="fas fa-smile"></i><span>Stories</span></a>
+                    <a href="/meet/models"><i class="fas fa-star"></i><span>Models</span></a>
+                </div>
+                <div>
+                    <a><i class="fas fa-globe"></i><span>Español</span></a>
+                    <a><i class="fas fa-globe-americas"></i><span>México</span></a>
+                    <a><i class="fas fa-female"></i><span>Female</span></a>
+                </div>
+            </main>
+            <footer>
+                <a href="/profile">
+                    <figure>
+                        <img src="user_1.png">
+                    </figure>
+                </a>
+                <a href="/meet"><i class="fas fa-search"></i></a>
+                <a href="/chats"><i class="fas fa-comment-alt"></i></a>
+            </footer>
+        </article>
+        <script src="https://kit.fontawesome.com/743152b0c5.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="meet.js"></script>
+    </body>
+</html>

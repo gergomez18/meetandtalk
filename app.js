@@ -9,6 +9,7 @@ app.use(express.static(__dirname + '/public/assets/images'));
 app.use(express.static(__dirname + '/public/controllers'));
 app.use(express.static(__dirname + '/public/models'));
 app.use(express.static(__dirname + '/public/views'));
+app.use(express.static(__dirname + '/demo'));
 
 socket.on('connection', (socket) => {
     socket.on('stream', (image) => {

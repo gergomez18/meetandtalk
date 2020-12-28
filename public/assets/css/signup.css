@@ -58,7 +58,7 @@ body.signup > article > main > form > a {
 }
 
 body.signup > article > main > form > textarea {
-    height: 320px;
+    height: 400px;
     padding-top: 40px;
 }
 
@@ -67,18 +67,19 @@ body.signup > article > main > form > a {
     align-items: center;
     justify-content: flex-end;
     background-color: #009688;
+    font-size: 40px;
     color: #fff;
 }
 
 body.signup > article > main > form > a > i {
     margin-left: 40px;
-    font-size: 40px;
 }
 
 body.signup > article > main > form > a:last-child {
     justify-content: center;
     margin-bottom: 0px;
     background-color: #fff;
+    font-size: 30px;
     color: #000;
 }
 
