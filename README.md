@@ -1,4 +1,4 @@
-# Node JS Meet & Talk
+# Meet & Talk (Node JS App)
 # Meet and talk to people around the world
 # Copyright (c) Meet & Talk 2020-2021
 # Credits to
