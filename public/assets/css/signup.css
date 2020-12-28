@@ -1,0 +1,106 @@
+body.signup,
+body.signup > article {
+    width: 100%;
+}
+
+body.signup > article > header {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('pattern.svg');
+    background-size: cover;
+}
+
+body.signup > article > header > figure,
+body.signup > article > header > figure > img {
+    width: auto;
+    height: 180px;
+}
+
+body.signup > article > main {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+body.signup > article > main > form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body.signup > article > main > form > input,
+body.signup > article > main > form > select,
+body.signup > article > main > form > textarea,
+body.signup > article > main > form > a {
+    width: 100%;
+    max-width: 800px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #757575;
+}
+
+body.signup > article > main > form > textarea {
+    height: 320px;
+    padding-top: 40px;
+}
+
+body.signup > article > main > form > a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #009688;
+    color: #fff;
+}
+
+body.signup > article > main > form > a > i {
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+body.signup > article > main > form > a:last-child {
+    justify-content: center;
+    margin-bottom: 0px;
+    background-color: #fff;
+    color: #000;
+}
+
+body.signup > article > footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+body.signup > article > footer > p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+body.signup > article > footer > p > a {
+    margin: 0px 5px;
+    color: #757575;
+}

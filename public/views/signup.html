@@ -2,15 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Meet & Talk | Login</title>
+        <title>Meet & Talk | Signup</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="login.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="signup.css" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <script defer src="https://kit.fontawesome.com/743152b0c5.js"></script>
     </head>
-    <body class="login">
-        <video src="login.mp4" autoplay="true" muted="true" loop="true"></video>
+    <body class="signup">
         <article>
             <header>
                 <figure>
@@ -18,10 +17,18 @@
                 </figure>
             </header>
             <main>
-                <a href="/meet" class="fb"><i class="fab fa-facebook"></i> Login with Facebook</a>
-                <a href="/meet" class="go"><i class="fab fa-google"></i> Login with Google</a>
-                <a href="/meet" class="ph"><i class="fas fa-mobile"></i> Login with phone</a>
-                <a href="/signup" class="sg"><i class="fas fa-user-plus"></i> or Signup</a>
+                <form>
+                    <input type="text" placeholder="Complete name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone">
+                    <input type="date" placeholder="Birthday">
+                    <input type="text" placeholder="Country">
+                    <input type="text" placeholder="Sex">
+                    <input type="text" placeholder="Language">
+                    <textarea placeholder="Biography (Tell us about you)"></textarea>
+                    <a href="/login">Signup <i class="fas fa-user-plus"></i></a>
+                    <a href="/login">Cancel</a>
+                </form>
             </main>
             <footer>
                 <p>Copyright (C) Meet & Talk SA de CV</p>
