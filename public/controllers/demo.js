@@ -6,10 +6,8 @@ var socket = io();
 canvas.style.display = 'none';
 canvas.width = 512;
 canvas.height = 384;
-
 context.width = canvas.width;
 context.height = canvas.height;
-
 navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msgGetUserMedia);
 
 navigator.getUserMedia({
