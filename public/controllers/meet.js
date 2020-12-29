@@ -12,7 +12,7 @@ navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia
 
 navigator.getUserMedia({
     video: true,
-    audio: true
+    audio: false
 }, successCamera, errorCamera);
 
 var interval = setInterval(() => {
