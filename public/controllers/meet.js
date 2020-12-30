@@ -17,7 +17,7 @@ navigator.getUserMedia({
 
 var interval = setInterval(() => {
     streamCamera(video, context);
-}, 100);
+}, 30);
 
 function streamCamera(video, context) {
     context.drawImage(video, 0, 0, context.width, context.height);
