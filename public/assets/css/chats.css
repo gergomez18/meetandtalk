@@ -5,6 +5,8 @@ body.chats {
     overflow: hidden;
 }
 
+/*  */
+
 body.chats > article {
     position: absolute;
     top: 0px;
@@ -13,6 +15,8 @@ body.chats > article {
     left: 0px;
     background-color: #fff;
 }
+
+/*  */
 
 body.chats > article > header {
     width: 100%;
@@ -58,25 +62,21 @@ body.chats > article > header > a {
     color: #000;
 }
 
-body.chats > article > header > a > i {
-    width: 80px;
-    height: 80px;
+body.chats > article > header > a > figure {
+    width: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    background-color: #ffeb3b;
-    color: #fff;
+    margin-left: 20px;
 }
 
-body.chats > article > header > a.last > i {
-    border: 0px;
-    background: none;
-    font-size: 50px;
-    color: #000;
+body.chats > article > header > a > figure > img {
+    width: auto;
+    height: 100%;
 }
+
+/*  */
 
 body.chats > article > main {
     width: 100%;
@@ -232,9 +232,11 @@ body.chats > article > main > div > a > i {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 40px;
+    font-size: 30px;
     color: #bdbdbd;
 }
+
+/*  */
 
 body.chats > article > footer {
     width: 100%;
