@@ -9,7 +9,7 @@ body.signup > article > header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 80px 80px 0px 80px;
     box-sizing: border-box;
     background-position: top;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body.signup > article > header > figure > img {
 
 body.signup > article > main {
     width: 100%;
-    padding: 40px;
+    padding: 80px;
     box-sizing: border-box;
 }
 
@@ -65,9 +65,9 @@ body.signup > article > main > form > a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #009688;
+    background-color: #e0e0e0;
     font-size: 40px;
-    color: #fff;
+    color: #757575;
 }
 
 body.signup > article > main > form > a > i {
@@ -84,12 +84,11 @@ body.signup > article > main > form > a:last-child {
 
 body.signup > article > footer {
     width: 100%;
-    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px 80px 80px 80px;
     box-sizing: border-box;
 }
 

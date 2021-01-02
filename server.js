@@ -1,3 +1,3 @@
 const http = require('./app');
 
-http.listen(3000, () => { });
+http.listen(3000);
