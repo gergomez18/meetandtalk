@@ -45,6 +45,10 @@ router.get('/profile/balance', (request, response) => {
     response.redirect('balance.html');
 });
 
+router.get('/profile/support', (request, response) => {
+    response.redirect('support.html');
+});
+
 router.get('/meet', (request, response) => {
     response.redirect('meet.html');
 });
