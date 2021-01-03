@@ -5,11 +5,13 @@ body.profile > article > header > figure {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid #fff;
     border-radius: 50%;
     overflow: hidden;
 }
 
 body.profile > article > header > figure:first-child {
+    border: 0px;
     border-radius: 0px;
 }
 
@@ -315,7 +317,7 @@ body.friends > article > main > div > a > i {
 
 body.record > article > main > div {
     display: block;
-    padding: 20px;
+    padding: 0px;
 }
 
 body.record > article > main > div::after {
@@ -333,8 +335,9 @@ body.record > article > main > div > a {
     justify-content: center;
     flex-direction: column;
     margin: 20px;
-    border: 1px solid #bdbdbd;
-    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid #bdbdbd;
+    border-radius: 10px;
     box-sizing: border-box;
     text-decoration: none;
 }
