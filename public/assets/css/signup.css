@@ -50,7 +50,7 @@ body.signup > article > main > form > a {
     border-radius: 10px;
     background-color: #eee;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 400;
     text-decoration: none;
     color: #000;
@@ -78,7 +78,7 @@ body.signup > article > main > form > a:last-child {
     justify-content: center;
     margin-bottom: 0px;
     background-color: #fff;
-    font-size: 30px;
+    font-size: 36px;
     color: #000;
 }
 
